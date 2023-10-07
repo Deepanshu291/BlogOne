@@ -29,13 +29,13 @@ A Flutter application for managing and displaying a list of blogs with the abili
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/flutter-blog-app.git
+   https://github.com/Deepanshu291/SubSpace_blog_assignment
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd flutter-blog-app
+   cd SubSpace_blog_assignment
    ```
 
 3. Install dependencies:
@@ -59,18 +59,21 @@ The app should open on your device or simulator.
 ```
 |-- lib
 |   |-- main.dart
-|   |-- models
-|   |   |-- blog_model.dart
-|   |-- providers
-|   |   |-- blog_provider.dart
-|   |   |-- favorite_blogs_provider.dart
+|   |-- Models
+|   |   |-- blogmodel.dart
+|   |   |-- blogModel.g.dart
+|   |-- Provider
+|   |   |-- DataProvider.dart
 |   |-- screens
-|   |   |-- blog_list_screen.dart
-|   |   |-- favorite_blogs_screen.dart
+|   |   |-- homepage.dart
+|   |   |-- FavoriteBlogsPage.dart
+|   |   |-- BlogPostpage.dart
 |   |-- services
-|   |   |-- blog_service.dart
-|   |-- widgets
-|   |   |-- blog_card.dart
+|   |   |-- apiservice.dart
+|   |   |--favroiteblog.dart
+|   |-- Components
+|   |   |-- Blogcard.dart
+|   |   |--loading.dart
 ```
 
 
